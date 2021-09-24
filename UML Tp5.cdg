@@ -2,7 +2,7 @@
 
 <ClassDiagram name="Arreglo">
   <ClassDiagramComponents>
-    <Class name="Arreglo" package="tp5" visibility="public" xPosition="181.0" yPosition="117.0">
+    <Class name="Arreglo" package="tp5" visibility="public" xPosition="115.0" yPosition="113.0">
       <Fields/>
       <Constructors/>
       <Methods>
@@ -21,7 +21,7 @@
         </Method>
       </Methods>
     </Class>
-    <Class name="Prueba Arreglo" package="" visibility="public" xPosition="642.0" yPosition="141.0">
+    <Class name="Prueba Arreglo" package="" visibility="public" xPosition="597.0" yPosition="141.0">
       <Fields/>
       <Constructors/>
       <Methods>
