@@ -5,7 +5,7 @@ package tp5;
  *
  * @author Patricia
  */
-public class Tp5 {
+public class PruebaArreglo {
 
     /**
      * @param args the command line arguments

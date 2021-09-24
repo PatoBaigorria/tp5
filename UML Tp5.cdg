@@ -2,25 +2,36 @@
 
 <ClassDiagram name="Arreglo">
   <ClassDiagramComponents>
-    <Class name="Arreglo" package="tp5" visibility="public" xPosition="20.0" yPosition="20.0">
+    <Class name="Arreglo" package="tp5" visibility="public" xPosition="181.0" yPosition="117.0">
       <Fields/>
       <Constructors/>
       <Methods>
-        <Method name="sumarLista" returnType="void" visibility="public" isStatic="true">
+        <Method name="sumarLista" returnType="int" visibility="public" isStatic="true">
           <Argument type="int" name="arr"/>
         </Method>
-        <Method name="buscarMayor" returnType="void" visibility="public" isStatic="true">
+        <Method name="buscarMayor" returnType="int" visibility="public" isStatic="true">
           <Argument type="int" name="arrBi"/>
         </Method>
-        <Method name="cuentaVocales" returnType="void" visibility="public" isStatic="true">
+        <Method name="cuentaVocales" returnType="String" visibility="public" isStatic="true">
           <Argument type="String" name="frase"/>
         </Method>
-        <Method name="cuentaCaracter" returnType="void" visibility="public" isStatic="true">
+        <Method name="cuentaCaracter" returnType="char" visibility="public" isStatic="true">
           <Argument type="String" name="palabra"/>
           <Argument type="char" name="p"/>
         </Method>
       </Methods>
     </Class>
+    <Class name="Prueba Arreglo" package="" visibility="public" xPosition="642.0" yPosition="141.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
   </ClassDiagramComponents>
-  <ClassDiagramRelations/>
+  <ClassDiagramRelations>
+    <UseRelation name="Usa un" source="Prueba Arreglo" target="tp5.Arreglo" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
 </ClassDiagram>
